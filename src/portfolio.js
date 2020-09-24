@@ -10,24 +10,24 @@ const greeting = {
   username: "Anyungu Wanyungu",
   title: "Hi all, I'm Anyungu",
   subTitle: emoji("I am an agile Full Stack Engineer 🚀 having actual experience in designing, building and deploying scalable apps in  Spring Boot, Node Js and React. I learn fast! I have worked outside my stack"),
-  resumeLink: "https://drive.google.com/file/d/1VT-kQSP1zhF9xOuK-43ozrJER6v3S3m4/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/15qF2VAsXvrABhp7h4AofFVUJk1te23Ig/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/adams-okode",
-  linkedin: "https://www.linkedin.com/in/adams-okode-a3b4b366/",
-  gmail: "adamsokode@gmail.com",
+  github: "https://github.com/Anyungu",
+  linkedin: "https://www.linkedin.com/in/anyungu-wanyungu-6aa7b513a/",
+  gmail: "anyungucw@gmail.com",
   gitlab: "https://gitlab.com/adams_okode",
-  facebook: "https://web.facebook.com/dan.aunndah/"
+  // facebook: "https://web.facebook.com/dan.aunndah/"
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "VERY CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE A LOT OF TECH STACK EXCEPT PHP",
   skills: [
     // emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
@@ -43,7 +43,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "Python (Django)",
+      skillName: "Python (Flask)",
       fontAwesomeClassname: "fab fa-python"
     },
     {
