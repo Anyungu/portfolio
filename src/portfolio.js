@@ -76,7 +76,7 @@ const skillsSection = {
     },
     {
       skillName: "Kubernetes",
-      fontAwesomeClassname: "fab fa-cubes"
+      fontAwesomeClassname: "fab fa-kubernetes"
     }
   ]
 };
@@ -99,7 +99,7 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Backend with nodeJS",
+      Stack: "Backend with Python Flask",
       progressPercentage: "25%"
     }
   ]
