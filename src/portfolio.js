@@ -118,7 +118,7 @@ const workExperiences = {
     {
       role: "Backend Engineer, Microservices",
       company: "Mesozi Group, Market Force Product",
-      companylogo: require("./assets/images/eed-logo.png"),
+      companylogo: require("./assets/images/msz.png"),
       date: "August 2020 - Present",
       desc: "",
       descBullets: [
@@ -129,7 +129,7 @@ const workExperiences = {
     {
       role: "IoT Software Engineer",
       company: "Liquid Telecom, Kenya",
-      companylogo: require("./assets/images/dctLogo.png"),
+      companylogo: require("./assets/images/ltk.svg"),
       date: "January 2020 – August 2020",
       desc: ""
     },
