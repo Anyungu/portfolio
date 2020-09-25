@@ -77,6 +77,10 @@ const skillsSection = {
     {
       skillName: "Kubernetes",
       fontAwesomeClassname: "fab fa-kubernetes"
+    },
+    {
+      skillName: "Github",
+      fontAwesomeClassname: "fab fa-github-square"
     }
   ]
 };
