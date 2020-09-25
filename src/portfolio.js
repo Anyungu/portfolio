@@ -47,10 +47,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "PHP (Laravel)",
-      fontAwesomeClassname: "fab fa-php"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -63,8 +59,8 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "Angular",
-      fontAwesomeClassname: "fab fa-angular"
+      skillName: "React-Native",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "AWS",
@@ -88,19 +84,19 @@ const skillsSection = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Frontend with React Native",  //Insert stack or technology you have experience in
       progressPercentage: "70%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "99%"
+      Stack: "Backend with Java Spring Boot",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Backend with nodeJS",
+      progressPercentage: "70%"
     }
   ]
 };
@@ -112,10 +108,10 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer (IoT)",
-      company: "EED Advisory",
+      role: "Backend Engineer, Microservices",
+      company: "Mesozi Group, Market Force Product",
       companylogo: require("./assets/images/eed-logo.png"),
-      date: "November 2018 – Present",
+      date: "August 2020 - Present",
       desc: "",
       descBullets: [
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -123,15 +119,15 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Developer",
-      company: "Directcore Technologies",
+      role: "IoT Software Engineer",
+      company: "Liquid Telecom, Kenya",
       companylogo: require("./assets/images/dctLogo.png"),
-      date: "August 2018 – November 2018",
+      date: "January 2020 – August 2020",
       desc: ""
     },
     {
-      role: "Software Developer Intern",
-      company: "Directcore Technologies",
+      role: "Lead Applications Developer",
+      company: "Fibonacci Systems",
       companylogo: require("./assets/images/dctLogo.png"),
       date: "June 2015 – August 2018",
       desc: ""
@@ -212,13 +208,13 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://developers.decoded.africa/how-to-dockerize-django-application/",
-      title: "How to Dockerize a Django Application",
+      url: "https://developers.decoded.africa/microservices-with-spring-boot-and-kubernetes/",
+      title: "Microservices with Spring Boot and Kubernetes",
       description: ""
     },
     {
-      url: "https://scotch.io/@adams_okode/building-a-restful-api-service-using-spring-boot",
-      title: "Building a RESTful API service using Spring-boot",
+      url: "https://developers.decoded.africa/how-to-build-a-nodejs-graphql-api/",
+      title: "How to Build a NodeJS GraphQL API",
       description: ""
     },
     {
@@ -257,8 +253,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+254702759950",
-  email_address: "adamsokode@gmail.com"
+  number: "+254722173654",
+  email_address: "anyungucw@gmail.com"
 };
 
 //Twitter Section
