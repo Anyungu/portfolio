@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Anyungu Wanyungu",
   title: "Hi all, I'm Anyungu",
-  subTitle: emoji("I am an agile Full Stack Engineer 🚀 having actual experience in designing, building and deploying scalable apps in  Spring Boot, Node Js and React. I learn fast! I have worked outside my stack"),
+  subTitle: emoji("I am an agile Full Stack Engineer 🚀 having actual experience in designing, building and deploying scalable apps in  Spring Boot, NodeJs and React. I learn fast! I have worked outside my stack"),
   resumeLink: "https://drive.google.com/file/d/15qF2VAsXvrABhp7h4AofFVUJk1te23Ig/view?usp=sharing"
 };
 
@@ -26,7 +26,7 @@ const socialMediaLinks = {
 
 // Your Skills Section
 const skillsSection = {
-  title: "What I do",
+  title: "My Skills",
   subTitle: "VERY CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE A LOT OF TECH STACK EXCEPT PHP",
   skills: [
     // emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
@@ -97,6 +97,10 @@ const techStack = {
     {
       Stack: "Backend with nodeJS",
       progressPercentage: "70%"
+    },
+    {
+      Stack: "Backend with nodeJS",
+      progressPercentage: "25%"
     }
   ]
 };
@@ -140,7 +144,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "adams-okode", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "Anyungu", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -218,8 +222,8 @@ const blogSection = {
       description: ""
     },
     {
-      url: "https://scotch.io/@adams_okode/spring-boot-on-vs-code444",
-      title: "Spring Boot on VS CODE",
+      url: "https://developers.decoded.africa/react-native-state-management-with-redux/",
+      title: "React Native State Management with Redux",
       description: ""
     }
   ]
@@ -253,7 +257,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+254722173654",
+  // number: "+254722173654",
   email_address: "anyungucw@gmail.com"
 };
 
