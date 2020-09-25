@@ -241,10 +241,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "IoT In the Wild",
-      subtitle: "ALU African Industrial Internet Programme 2019 - Guest Speaker Session",
-      slides_url: "https://www.youtube.com/watch?v=ZWnzLzTk1EQ",
-      event_url: "https://www.youtube.com/watch?v=ZWnzLzTk1EQ"
+      title: "Sigfox CUSTOM API Integration",
+      subtitle: "Consume Sigfox Messages with NodeJS - Guest Speaker Session",
+      slides_url: "https://docs.google.com/presentation/d/1ynkl7UICSe0_7NMyKO4Yu8vuEfLUEOSBdz0dt0571uc/edit?usp=sharing",
+
     }
   ]
 };
