@@ -29,7 +29,7 @@ const skillsSection = {
   title: "My Skills",
   subTitle: "VERY CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE A LOT OF TECH STACK EXCEPT PHP",
   skills: [
-    emoji("⚡ Come up with project presentations real quick!"),
+    emoji("⚡ I can come up with technical, non technical and tutorial project presentations real quick!"),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     // emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
@@ -135,10 +135,9 @@ const workExperiences = {
       date: "January 2020 – August 2020",
       desc: "Introduce Software to Liquid IoT",
       descBullets: [
-        "Analyse potential software partners",
-        "Support software partners",
+        "Analyse and support potential software partners",
         "Build Software for network traffic monitoring",
-        "Build Sigfox Software decoders",
+        "Build public Sigfox payloads decoders",
         "Build an internal PoC platfrom"
       ]
     },
@@ -147,7 +146,7 @@ const workExperiences = {
       company: "Fibonacci Systems",
       companylogo: require("./assets/images/dctLogo.png"),
       date: "June 2015 – August 2018",
-      desc: "Design, Build, Maintain && Imporove the MS Architecture",
+      desc: "Design, Build, Maintain && Imporove the Fibo API",
       descBullets: [
         "Set up Docker annd Docker compose for deployment",
         "Build, test and maintain the company product REST API",
@@ -173,14 +172,14 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+    // {
+    //   image: require("./assets/images/saayaHealthLogo.webp"),
+    //   link: "http://saayahealth.com/"
+    // },
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   link: "http://nextu.se/"
+    // }
   ]
 };
 
@@ -192,32 +191,32 @@ const achievementSection = {
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
+    // {
+    //   title: "Google Code-In Finalist",
+    //   subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+    //   image: require("./assets/images/codeInLogo.webp"),
+    //   footerLink: [
+    //     { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+    //     { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+    //     { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+    //   ]
+    // },
+    // {
+    //   title: "Google Assistant Action",
+    //   subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+    //   image: require("./assets/images/googleAssistantLogo.webp"),
+    //   footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+    // },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   footerLink: [
+    //     { name: "Certification", url: "" },
+    //     { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+    //   ]
+    // }
   ]
 };
 
@@ -258,7 +257,6 @@ const talkSection = {
       title: "Sigfox CUSTOM API Integration",
       subtitle: "Consume Sigfox Messages with NodeJS - Guest Speaker Session",
       slides_url: "https://docs.google.com/presentation/d/1ynkl7UICSe0_7NMyKO4Yu8vuEfLUEOSBdz0dt0571uc/edit?usp=sharing",
-
     }
   ]
 };
@@ -275,7 +273,6 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project, Request a free open source collaboration or just say hi? My Inbox is open for all.",
-  // number: "+254722173654",
   email_address: "anyungucw@gmail.com"
 };
 
