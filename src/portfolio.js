@@ -29,7 +29,7 @@ const skillsSection = {
   title: "My Skills",
   subTitle: "VERY CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE A LOT OF TECH STACK EXCEPT PHP",
   skills: [
-    // emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    emoji("⚡ Come up with project presentations real quick!"),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     // emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
@@ -90,13 +90,14 @@ const skillsSection = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-    {
-      Stack: "Frontend with React Native",  //Insert stack or technology you have experience in
-      progressPercentage: "75%"  //Insert relative proficiency in percentage
-    },
+
     {
       Stack: "Backend with Java Spring Boot",
       progressPercentage: "85%"
+    },
+    {
+      Stack: "Frontend with React Native",  //Insert stack or technology you have experience in
+      progressPercentage: "75%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend with nodeJS",
@@ -120,10 +121,11 @@ const workExperiences = {
       company: "Mesozi Group, Market Force Product",
       companylogo: require("./assets/images/msz.png"),
       date: "August 2020 - Present",
-      desc: "",
+      desc: "Design, Build, Maintain, Imporove the MS Architecture",
       descBullets: [
-        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Set up Github Actions for CI/CD",
+        "Configure consul and envoy for each microservice",
+        "Set up kafka for event based inter microservice communication"
       ]
     },
     {
@@ -131,14 +133,26 @@ const workExperiences = {
       company: "Liquid Telecom, Kenya",
       companylogo: require("./assets/images/ltk.svg"),
       date: "January 2020 – August 2020",
-      desc: ""
+      desc: "Introduce Software to Liquid IoT",
+      descBullets: [
+        "Analyse potential software partners",
+        "Support software partners",
+        "Build Software for network traffic monitoring",
+        "Build Sigfox Software decoders",
+        "Build an internal PoC platfrom"
+      ]
     },
     {
       role: "Lead Applications Developer",
       company: "Fibonacci Systems",
       companylogo: require("./assets/images/dctLogo.png"),
       date: "June 2015 – August 2018",
-      desc: ""
+      desc: "Design, Build, Maintain && Imporove the MS Architecture",
+      descBullets: [
+        "Set up Docker annd Docker compose for deployment",
+        "Build, test and maintain the company product REST API",
+        "Support for customers onboarding"
+      ]
     },
   ]
 };
@@ -260,7 +274,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "Discuss a project, Request a free open source collaboration or just say hi? My Inbox is open for all.",
   // number: "+254722173654",
   email_address: "anyungucw@gmail.com"
 };
