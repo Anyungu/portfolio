@@ -27,7 +27,7 @@ const socialMediaLinks = {
 // Your Skills Section
 const skillsSection = {
   title: "My Skills",
-  subTitle: "VERY CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE A LOT OF TECH STACK EXCEPT PHP",
+  subTitle: "VERY CURIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE A LOT OF TECH STACKS",
   skills: [
     emoji("⚡ I can come up with technical, non technical and tutorial project presentations real quick!"),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
