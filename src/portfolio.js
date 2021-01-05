@@ -96,16 +96,21 @@ const techStack = {
       progressPercentage: "85%"
     },
     {
+      Stack: "Backend with NestJS",
+      progressPercentage: "75%"
+    },
+    {
       Stack: "Frontend with React Native",  //Insert stack or technology you have experience in
       progressPercentage: "75%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend with nodeJS",
+      Stack: "Backend with flat nodeJS",
       progressPercentage: "70%"
     },
+   
     {
       Stack: "Backend with Python Flask",
-      progressPercentage: "25%"
+      progressPercentage: "55%"
     }
   ]
 };
