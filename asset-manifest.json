@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b7651eea.chunk.css",
-    "main.js": "/portfolio/static/js/main.31762886.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.31762886.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.6da7bb74.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6da7bb74.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.e1813d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.e1813d7e.js.map",
-    "static/js/2.87b9939e.chunk.js": "/portfolio/static/js/2.87b9939e.chunk.js",
-    "static/js/2.87b9939e.chunk.js.map": "/portfolio/static/js/2.87b9939e.chunk.js.map",
+    "static/js/2.0b9e6bd1.chunk.js": "/portfolio/static/js/2.0b9e6bd1.chunk.js",
+    "static/js/2.0b9e6bd1.chunk.js.map": "/portfolio/static/js/2.0b9e6bd1.chunk.js.map",
     "static/css/3.f9898e9a.chunk.css": "/portfolio/static/css/3.f9898e9a.chunk.css",
     "static/js/3.2e1a9255.chunk.js": "/portfolio/static/js/3.2e1a9255.chunk.js",
     "static/js/3.2e1a9255.chunk.js.map": "/portfolio/static/js/3.2e1a9255.chunk.js.map",
@@ -14,12 +14,12 @@
     "static/js/4.373d286d.chunk.js": "/portfolio/static/js/4.373d286d.chunk.js",
     "static/js/4.373d286d.chunk.js.map": "/portfolio/static/js/4.373d286d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8457b21d89fac019d1b4dcc9ea965248.js": "/portfolio/precache-manifest.8457b21d89fac019d1b4dcc9ea965248.js",
+    "precache-manifest.7a0e567d02e24250b2eb289c681ea3e8.js": "/portfolio/precache-manifest.7a0e567d02e24250b2eb289c681ea3e8.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/3.f9898e9a.chunk.css.map": "/portfolio/static/css/3.f9898e9a.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/portfolio/static/css/4.54df59d4.chunk.css.map",
     "static/css/main.b7651eea.chunk.css.map": "/portfolio/static/css/main.b7651eea.chunk.css.map",
-    "static/js/2.87b9939e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.87b9939e.chunk.js.LICENSE.txt",
+    "static/js/2.0b9e6bd1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0b9e6bd1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/contactMail.webp": "/portfolio/static/media/contactMail.68e84138.webp",
     "static/media/dctLogo.png": "/portfolio/static/media/dctLogo.b90f9396.png",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e1813d7e.js",
-    "static/js/2.87b9939e.chunk.js",
+    "static/js/2.0b9e6bd1.chunk.js",
     "static/css/main.b7651eea.chunk.css",
-    "static/js/main.31762886.chunk.js"
+    "static/js/main.6da7bb74.chunk.js"
   ]
 }
