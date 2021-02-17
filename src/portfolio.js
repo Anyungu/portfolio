@@ -10,7 +10,7 @@ const greeting = {
   username: "Anyungu Wanyungu",
   title: "Hi all, I'm Anyungu",
   subTitle: emoji("I am an agile Full Stack Engineer 🚀 having actual experience in designing, building and deploying scalable apps in  Spring Boot, NodeJs and React. I learn fast! I have worked outside my stack"),
-  resumeLink: "https://drive.google.com/file/d/15qF2VAsXvrABhp7h4AofFVUJk1te23Ig/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1oOnDDFTjwKJVt7LVILpDokrC2RfdVip8/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -19,7 +19,7 @@ const socialMediaLinks = {
   github: "https://github.com/Anyungu",
   linkedin: "https://www.linkedin.com/in/anyungu-wanyungu-6aa7b513a/",
   gmail: "anyungucw@gmail.com",
-  gitlab: "https://gitlab.com/adams_okode",
+  // gitlab: "https://gitlab.com/adams_okode",
   // facebook: "https://web.facebook.com/dan.aunndah/"
   // Instagram and Twitter are also supported in the links!
 };
@@ -122,10 +122,21 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "FullStack Engineer",
+      company: "Libryo",
+      companylogo: require("./assets/images/msz.png"),
+      date: "January 2021 - Present",
+      desc: "Design, Build, Maintain, Imporove the Libryo Product",
+      descBullets: [
+        "Scrap required Legal Data",
+        "Build and Deploy graphQL APIs",
+      ]
+    },
+    {
       role: "Backend Engineer, Microservices",
       company: "Mesozi Group, Market Force Product",
       companylogo: require("./assets/images/msz.png"),
-      date: "August 2020 - Present",
+      date: "August 2020 - Jan 2021",
       desc: "Design, Build, Maintain, Imporove the MS Architecture",
       descBullets: [
         "Set up Github Actions for CI/CD",
@@ -197,7 +208,7 @@ const achievementSection = {
 
   achivementsCards: [
     // {
-    //   title: "Google Code-In Finalist",
+    //   title: "Jomo Kenyatta University Students Associatio",
     //   subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
     //   image: require("./assets/images/codeInLogo.webp"),
     //   footerLink: [
