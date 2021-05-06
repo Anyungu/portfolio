@@ -207,16 +207,16 @@ const achievementSection = {
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
-    // {
-    //   title: "Jomo Kenyatta University Students Associatio",
-    //   subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-    //   image: require("./assets/images/codeInLogo.webp"),
-    //   footerLink: [
-    //     { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-    //     { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-    //     { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-    //   ]
-    // },
+    {
+      title: "Jomo Kenyatta University Students Association",
+      subtitle: "Served as Student president for over 60,000 Students, representing them in admin meetingd",
+      // image: require("./assets/images/codeInLogo.webp"),
+      // footerLink: [
+      //   { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+      //   { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+      //   { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+      // ]
+    },
     // {
     //   title: "Google Assistant Action",
     //   subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
