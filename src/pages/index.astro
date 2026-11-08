@@ -1,11 +1,124 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import Button from '../components/Button.astro';
+import SectionLabel from '../components/SectionLabel.astro';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const work = [
+	['01', 'Order parser', 'Cut manual order processing by 90%', 'OCR · Gemini · evals'],
+	['02', 'WhatsApp ordering agent', 'Customers order by chat, connected to the ERP', 'WhatsApp Cloud API · Gemini/OpenAI · Redis'],
+	['03', 'Data pipelines', '99%+ job success, 40% less API load', 'ELT/CDC · Airbyte · BigQuery'],
+	['04', 'IoT cold rooms', '20M+ data points a month', 'MQTT · InfluxDB · Next.js'],
+];
+
+const stack = 'TypeScript · Python · React / Next.js · Node.js / FastAPI · PostgreSQL · AWS · LLM agents & RAG';
+
+const experience = [
+	['2025–2026', 'Farm to Feed', 'Senior Full-Stack Engineer & Data Lead'],
+	['2022–2025', 'Inspirafarms', 'Senior Full-Stack Engineer, IoT'],
+	['2018–2022', 'Mortgage Ezy, Libryo, Mesozi, Liquid, Fibo', ''],
+];
+
+const projects = [
+	['Mwanga-ai', 'Open-source AI gateway', 'https://github.com/Anyungu/mwanga-ai'],
+	['Docspade', 'Docs platform with Ask AI that cites its sources', 'https://docspade.com'],
+	['VumaGigs', 'Event tickets paid with M-Pesa', 'https://vumagigs.com'],
+	['Karklan', 'Vehicle inspection reports and history for cars in Kenya', 'https://karklan.fyi'],
+];
+
+const displayUrl = (href: string) => href.replace(/^https?:\/\//, '').replace(/\/$/, '');
+
+const emailHref = 'mailto:anyungucw@gmail.com';
+const linkedinHref = 'https://www.linkedin.com/in/anyungu-wanyungu-6aa7b513a/';
+const githubHref = 'https://github.com/Anyungu';
+const cvHref = '/Anyungu_Wanyungu_CV.pdf';
 ---
 
 <Layout>
-	<Welcome />
+	<main>
+		<nav class="nav" aria-label="Primary navigation">
+			<a class="wordmark" href="#top">ANYUNGU WANYUNGU</a>
+			<Button href={emailHref} primary ariaLabel="Email Anyungu Wanyungu">Email me</Button>
+		</nav>
+
+		<header class="hero" id="top">
+			<SectionLabel>SENIOR AI &amp; FULL-STACK ENGINEER · NAIROBI</SectionLabel>
+			<h1>
+				I build AI tools and software
+				<br class="desktop-break" /> that teams use every day.
+			</h1>
+			<p class="stack">{stack}</p>
+			<div class="socials" aria-label="Social links">
+				<Button href={emailHref} primary ariaLabel="Email Anyungu Wanyungu">Email</Button>
+				<Button href={linkedinHref} ariaLabel="Visit LinkedIn">LinkedIn</Button>
+				<Button href={githubHref} ariaLabel="Visit GitHub">GitHub</Button>
+				<Button href={cvHref} ariaLabel="Open CV (PDF)">CV</Button>
+			</div>
+		</header>
+
+		<section class="section" aria-labelledby="work-heading">
+			<SectionLabel><span id="work-heading">SELECTED WORK</span></SectionLabel>
+			<div class="card-grid">
+				{
+					work.map(([number, title, description, tools]) => (
+						<article class="card work-card">
+							<span class="number">{number}</span>
+							<div class="card-copy">
+								<h2>{title}</h2>
+								<p>{description}</p>
+							</div>
+							<p class="stack">{tools}</p>
+						</article>
+					))
+				}
+			</div>
+		</section>
+
+		<section class="section experience" aria-labelledby="experience-heading">
+			<SectionLabel><span id="experience-heading">EXPERIENCE</span></SectionLabel>
+			<div class="experience-list">
+				{
+					experience.map(([dates, company, role]) => (
+						<article class="experience-entry">
+							<time>{dates}</time>
+							<div>
+								<h2>{company}</h2>
+								{role && <p>{role}</p>}
+							</div>
+						</article>
+					))
+				}
+			</div>
+		</section>
+
+		<section class="section" aria-labelledby="projects-heading">
+			<SectionLabel><span id="projects-heading">SIDE PROJECTS</span></SectionLabel>
+			<div class="card-grid project-grid">
+				{
+					projects.map(([name, description, href]) => (
+						<a
+							class="card project-card"
+							href={href}
+							target="_blank"
+							rel="noreferrer"
+							aria-label={`${name}: ${description} (opens in a new tab)`}
+						>
+							<span class="number">{displayUrl(href)}</span>
+							<div class="card-copy">
+								<h2>{name}</h2>
+								<p>{description}</p>
+							</div>
+						</a>
+					))
+				}
+			</div>
+		</section>
+
+		<section class="contact" id="contact" aria-labelledby="contact-heading">
+			<SectionLabel><span id="contact-heading">CONTACT</span></SectionLabel>
+			<p class="contact-title">Open to senior AI and full-stack roles, remote or relocation.</p>
+			<Button href={emailHref} primary ariaLabel="Email Anyungu Wanyungu">Email me</Button>
+		</section>
+
+		<footer>© 2026 Anyungu C. Wanyungu · Nairobi</footer>
+	</main>
 </Layout>

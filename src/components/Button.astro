@@ -1,0 +1,20 @@
+---
+interface Props {
+	href: string;
+	primary?: boolean;
+	ariaLabel?: string;
+}
+
+const { href, primary = false, ariaLabel } = Astro.props;
+const external = href.startsWith('http');
+---
+
+<a
+	class:list={['button', { 'button--primary': primary }]}
+	href={href}
+	aria-label={ariaLabel}
+	target={external ? '_blank' : undefined}
+	rel={external ? 'noreferrer' : undefined}
+>
+	<slot />
+</a>

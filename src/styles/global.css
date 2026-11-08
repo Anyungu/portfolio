@@ -1,0 +1,401 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "DM Mono:Regular";
+  src: url("https://static.figma.com/font/DMMono-Regular_1") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "DM Sans:Medium";
+  src: url("https://static.figma.com/font/DMSans_opsz_wght__1") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "DM Sans:Regular";
+  src: url("https://static.figma.com/font/DMSans_opsz_wght__1") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+  color: #f0f0f0;
+  background: #0d0d0d;
+  font-family: "DM Sans:Regular", "DM Sans", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    background: #0d0d0d;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+main {
+  min-height: 100dvh;
+  padding: 0 80px;
+  background: #0d0d0d;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 0;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.wordmark,
+.section-label,
+.number,
+.experience-entry time {
+  font-family: "DM Mono:Regular", "DM Mono", monospace;
+  font-weight: 400;
+}
+
+.wordmark {
+  color: #25d366;
+  font-size: 13px;
+  letter-spacing: 1.1px;
+  line-height: normal;
+}
+
+.button {
+  display: inline-flex;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  border: 1px solid #1f1f1f;
+  color: #f0f0f0;
+  background: #0d0d0d;
+  font-family: "DM Sans:Medium", "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  font-variation-settings: "opsz" 14;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.button--primary {
+  border-color: #25d366;
+  color: #000;
+  background: #25d366;
+}
+
+.nav .button {
+  height: 36px;
+  padding-inline: 16px;
+}
+
+.button:hover,
+.button:focus-visible {
+  border-color: #25d366;
+  outline: none;
+}
+
+.button--primary:hover,
+.button--primary:focus-visible {
+  border-color: #f0f0f0;
+  background: #f0f0f0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 100px 0 88px;
+}
+
+.section-label {
+  color: #25d366;
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+}
+
+.hero > .section-label {
+  width: 100%;
+  line-height: 1.7;
+}
+
+h1 {
+  color: #f0f0f0;
+  font-family: "DM Sans:Regular", "DM Sans", sans-serif;
+  font-size: 76px;
+  font-weight: 400;
+  font-variation-settings: "opsz" 14;
+  letter-spacing: -3.1px;
+  line-height: 1.08;
+}
+
+.stack,
+.card .stack {
+  color: #999;
+  font-family: "DM Mono:Regular", "DM Mono", monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 8px;
+}
+
+.section,
+.contact,
+footer {
+  border-top: 1px solid #1f1f1f;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 56px 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #1f1f1f;
+  padding: 24px;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.number {
+  color: #25d366;
+  font-size: 12px;
+  line-height: normal;
+}
+
+.card-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card h2 {
+  color: #f0f0f0;
+  font-size: 22px;
+  font-weight: 400;
+  font-variation-settings: "opsz" 14;
+  line-height: normal;
+}
+
+.card p,
+.experience-entry p {
+  color: #999;
+  font-size: 14px;
+  font-variation-settings: "opsz" 14;
+  line-height: 1.6;
+}
+
+.experience {
+  gap: 8px;
+}
+
+.experience > .section-label {
+  padding-bottom: 16px;
+}
+
+.experience-list {
+  width: 100%;
+}
+
+.experience-entry {
+  display: grid;
+  grid-template-columns: 176px minmax(0, 1fr);
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.experience-entry:last-child {
+  border-bottom: 0;
+}
+
+.experience-entry time {
+  color: #999;
+  font-size: 11px;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+}
+
+.experience-entry div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.experience-entry h2 {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-weight: 400;
+  font-variation-settings: "opsz" 14;
+  line-height: 1.4;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+a.card {
+  transition: border-color 160ms ease;
+}
+
+a.card:hover,
+a.card:focus-visible {
+  border-color: #25d366;
+  outline: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 72px 0;
+}
+
+.contact-title {
+  width: 740px;
+  max-width: 100%;
+  color: #f0f0f0;
+  font-size: 48px;
+  font-variation-settings: "opsz" 14;
+  letter-spacing: -1.5px;
+  line-height: 1.15;
+}
+
+footer {
+  padding: 28px 0;
+  color: #999;
+  font-size: 12px;
+  font-variation-settings: "opsz" 14;
+  line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  main {
+    padding: 0 24px;
+  }
+
+  .nav {
+    padding: 24px 0;
+  }
+
+  .wordmark {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+
+  .hero {
+    gap: 28px;
+    padding: 64px 0;
+  }
+
+  .hero > .section-label {
+    font-size: 10px;
+    letter-spacing: 0.55px;
+  }
+
+  h1 {
+    font-size: 44px;
+    letter-spacing: -1.8px;
+  }
+
+  .desktop-break {
+    display: none;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .work-card {
+    padding: 20px;
+  }
+
+  .work-card h2 {
+    font-size: 20px;
+  }
+
+  .experience-entry {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .experience-entry h2 {
+    font-size: 18px;
+  }
+
+  .contact {
+    padding: 56px 0;
+  }
+
+  .contact-title {
+    font-size: 34px;
+    letter-spacing: -1px;
+  }
+
+  footer {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 370px) {
+  main {
+    padding-inline: 18px;
+  }
+
+  .socials {
+    gap: 6px;
+  }
+
+  .socials .button {
+    padding-inline: 16px;
+  }
+
+  h1 {
+    font-size: 39px;
+  }
+}
